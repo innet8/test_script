@@ -1,0 +1,14 @@
+#入门配置
+[server]
+103.63.139.95		 ansible_port=22 ansible_user=root
+103.63.139.233		 ansible_port=22 ansible_user=root
+103.63.139.236	 ansible_port=22 ansible_user=root
+103.63.139.166	 ansible_port=22 ansible_user=root
+103.63.139.30	 ansible_port=22 ansible_user=root
+[all:vars]
+ansible_ssh_private_key_file=/Users/mac-512/script/auto_ioread/id_ed25519
+#True  安装测试环境
+#False 开始测试
+init_env=False
+
+ansible_ssh_extra_args='-o StrictHostKeyChecking=no '

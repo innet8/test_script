@@ -1,0 +1,26 @@
+
+- name: 测试网路带宽
+  hosts: all 
+  gather_facts: false
+  tasks:
+  - name: 测试节点是否可连接
+    ping:
+  - name: 初始化安装相关
+    shell: apt-get update && apt-get install -y screen 
+    when: init_env == True
+  - name: 初始化安装相关
+    shell: screen -d -m -S init su - root -c "apt-get update && apt-get install -y python3-pip speedtest-cli " 
+    when: init_env == True
+  - name: 执行测速
+    shell:  speedtest>/tmp/speedtest.log
+    when: init_env != True
+  - name: 获取日志文件
+    fetch:
+      src: /tmp/speedtest.log
+      dest: ./result/{{ ansible_host }}.log
+      flat: yes
+    when: init_env != True
+
+
+
+

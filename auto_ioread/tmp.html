@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>$title</title>
+    <script src="./static/chart.js"></script>
+    <link rel="stylesheet" href="./static/bootstrap.min.css">
+    <script src="./static/jquery.min.js"></script>
+    <script src="./static/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row clearfix">
+           
+            <div class="col-md-11 column">
+
+                <div class="card">
+                    <div class="card-header">
+                        <h1>硬盘读写测试</h1>
+                    </div>
+                    <div class="card-body">
+                    
+                        <table class="table table-bordered">
+            
+                            <thead>
+                                <tr>
+                                    <th>ip</th>
+                                    <th>读</th>
+                                    <th>写</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                $shell_tr
+                            </tbody>
+                        </table>
+                       
+                            <div class="col-6">
+                                <canvas id="Read" width="100" height="100"></canvas>
+                            </div>
+                            <div class="col-6">
+                                <canvas id="Write" width="100" height="100"></canvas>
+                            </div>
+                          
+                      
+                      
+                           
+                      
+                           
+                        <script>
+                       
+            
+                            const read_data = {
+                                labels:  $shell_ip,
+                                datasets: [{
+                                    label: "硬盘读测试",
+                                    data: $shell_read_data,
+                                    fill: false,
+                                    borderColor: 'rgb(75, 192, 192)', // 设置线的颜色
+                                    tension: 0.1
+                                }]
+                            };
+            
+                            const write_data = {
+                                labels:  $shell_ip,
+                                datasets: [{
+                                    label: "硬盘写测试",
+                                    data: $shell_write_data,
+                                    fill: false,
+                                    borderColor: 'rgb(75, 192, 192)', // 设置线的颜色
+                                    tension: 0.1
+                                }]
+                            };
+            
+                            const read_config = {
+                                type: 'line', // 设置图表类型
+                                data: read_data,
+                            };
+            
+                            const write_config = {
+                                type: 'line', // 设置图表类型
+                                data: write_data,
+                            };
+                            const Read = new Chart(document.getElementById('Read'), read_config);
+                            const Write = new Chart(document.getElementById('Write'), write_config);
+                        </script>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+
+  
+</body>
+
+</html>

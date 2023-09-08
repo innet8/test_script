@@ -1,0 +1,4115 @@
+{
+    "154.207.81.170": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/\u8fd0\u7ef4\u7ec4"
+        ],
+        "address": "154.207.81.170",
+        "id": "252d5c6d-93f0-4ea7-8802-8018ea7c69f5",
+        "password": "f-Z64y)I87q6fjT~",
+        "username": "root",
+        "data": {
+            "id": "0d5f6a07-456f-4018-b379-388e138f45ad",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "apO27(9p7KLy8.~j",
+            "spec_info": {},
+            "created_by": "36773fb2-e97d-4883-977a-c17b8820a10c",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "252d5c6d-93f0-4ea7-8802-8018ea7c69f5",
+                "name": "154.207.81.170",
+                "address": "154.207.81.170",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 22,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:15 +0800"
+        }
+    },
+    "154.207.81.172": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/\u8fd0\u7ef4\u7ec4"
+        ],
+        "address": "154.207.81.172",
+        "id": "29468bac-f81c-4121-b70b-c1279a99370c",
+        "password": "680,SXP!4HO~0xkU",
+        "username": "root",
+        "data": {
+            "id": "2dd91e2e-48ac-431b-928b-cda30cc80345",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "QM8MJy#.r%7v32z5",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "29468bac-f81c-4121-b70b-c1279a99370c",
+                "name": "154.207.81.172",
+                "address": "154.207.81.172",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 15,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:16 +0800"
+        }
+    },
+    "154.207.98.240": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Guowang"
+        ],
+        "address": "154.207.98.240",
+        "id": "54426554-4a77-45c1-92f9-15355501540f",
+        "password": "84NS+^WK0rDu6u9.",
+        "username": "root",
+        "data": {
+            "id": "6a67e9a4-3ebe-4859-afdd-a3f991923f6d",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "5ks-a32ZkiY^2k8-",
+            "spec_info": {},
+            "created_by": "89c80ab5-055b-4f94-867e-e71217134a6c",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "54426554-4a77-45c1-92f9-15355501540f",
+                "name": "154.207.98.240",
+                "address": "154.207.98.240",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 19,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:16 +0800"
+        }
+    },
+    "154.207.98.242": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Guowang"
+        ],
+        "address": "154.207.98.242",
+        "id": "4d8f8627-9f8a-4475-b6e4-b2f04a7e0767",
+        "password": "uSh(9L!f6+60Bxq1",
+        "username": "root",
+        "data": {
+            "id": "ca62e372-8808-4d8b-84a9-0583bffa59cd",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "_o0X?HB-f1GE47j4",
+            "spec_info": {},
+            "created_by": "73423ded-2c9b-4c0c-87c2-409aec6fc9b2",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "4d8f8627-9f8a-4475-b6e4-b2f04a7e0767",
+                "name": "154.207.98.242",
+                "address": "154.207.98.242",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 25,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:16 +0800"
+        }
+    },
+    "43.229.28.61": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Pang"
+        ],
+        "address": "43.229.28.61",
+        "id": "55659def-f82a-43fa-9dd2-9268812a1113",
+        "password": "kR.^29gKMNc0)c08",
+        "username": "root",
+        "data": {
+            "id": "e9ede580-7510-4f59-8ddc-816d0066c42a",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "u%L3-P9vOR7qE75+",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "55659def-f82a-43fa-9dd2-9268812a1113",
+                "name": "43.229.28.61",
+                "address": "43.229.28.61",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 14,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:16 +0800"
+        }
+    },
+    "43.229.28.63": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/DIYlink"
+        ],
+        "address": "43.229.28.63",
+        "id": "b5114a80-a0ab-4694-a0c7-ea4b9dc2263b",
+        "password": "h4z+N4*L90P6ow%K",
+        "username": "root",
+        "data": {
+            "id": "6ebd31ad-c4bf-446d-a382-117a9d493cbc",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "n*29edsU0Af7^2k~",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "b5114a80-a0ab-4694-a0c7-ea4b9dc2263b",
+                "name": "43.229.28.63",
+                "address": "43.229.28.63",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 13,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:17 +0800"
+        }
+    },
+    "43.229.28.64": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/DIYlink"
+        ],
+        "address": "43.229.28.64",
+        "id": "623c0bb9-37f6-4a3d-a647-6dc5d4dcb86d",
+        "password": "cs1R-t279S*r^kv4",
+        "username": "root",
+        "data": {
+            "id": "fe316ff3-d1b0-4d59-824e-ef8897e8cad2",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "E3uCn8mg.(15A1K,",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "623c0bb9-37f6-4a3d-a647-6dc5d4dcb86d",
+                "name": "43.229.28.64",
+                "address": "43.229.28.64",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 13,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:17 +0800"
+        }
+    },
+    "43.229.28.65": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/DIYlink"
+        ],
+        "address": "43.229.28.65",
+        "id": "d83d95b3-f5a9-48ea-8a69-178dbaef8414",
+        "password": "5yZ1mF(S.Re,140Z",
+        "username": "root",
+        "data": {
+            "id": "44dadf25-7b2a-4333-82b8-897170a783f5",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "?wB,e(5jj06Ycs88",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "d83d95b3-f5a9-48ea-8a69-178dbaef8414",
+                "name": "43.229.28.65",
+                "address": "43.229.28.65",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 13,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:17 +0800"
+        }
+    },
+    "43.229.28.68": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/DIYlink"
+        ],
+        "address": "43.229.28.68",
+        "id": "f94769ae-f461-4ec3-8a6c-a1a02653ad14",
+        "password": "5d?v46#yzblu0u2,",
+        "username": "root",
+        "data": {
+            "id": "8607063d-3d27-4c81-8f5e-d30f10f24658",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "yE(X6?oj410F2!mK",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "f94769ae-f461-4ec3-8a6c-a1a02653ad14",
+                "name": "43.229.28.68",
+                "address": "43.229.28.68",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 13,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:17 +0800"
+        }
+    },
+    "43.229.28.78": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/DIYlink"
+        ],
+        "address": "43.229.28.78",
+        "id": "7d372bb6-8691-45da-8584-9b0ec61f01ce",
+        "password": "M~s07udj1G.4~8iq",
+        "username": "root",
+        "data": {
+            "id": "2276d55f-f91e-4d71-b8e1-6a59e79d8048",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "P9L~2)98uCAfg4l,",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "7d372bb6-8691-45da-8584-9b0ec61f01ce",
+                "name": "43.229.28.78",
+                "address": "43.229.28.78",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 13,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:18 +0800"
+        }
+    },
+    "154.207.81.113": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Cloud5"
+        ],
+        "address": "154.207.81.113",
+        "id": "bf6002ed-5a14-48a7-8919-3729b3fcdfe7",
+        "password": "sEs~N+N&63Qi094k",
+        "username": "root",
+        "data": {
+            "id": "7fa7cf42-c7c4-4ca2-9c46-7c0acaa12a50",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "+49xH#,jHakJ8O59",
+            "spec_info": {},
+            "created_by": "385fbd35-b4c0-4542-9ce2-039caa3b2de7",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "bf6002ed-5a14-48a7-8919-3729b3fcdfe7",
+                "name": "Cloud5",
+                "address": "154.207.81.113",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 17,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:18 +0800"
+        }
+    },
+    "154.207.98.241": {
+        "port": 33063,
+        "created_by": "System",
+        "nodes_display": [
+            "/Default/Apps"
+        ],
+        "address": "154.207.98.241",
+        "id": "ead2b184-4f78-43f0-9bca-b0274bddaae0",
+        "password": "Dc8PDRYQ71L.+8,5",
+        "username": "sdwan",
+        "data": {
+            "id": "c6e881d8-a8c6-4db1-bdc7-137850b2bda8",
+            "name": "sdwan",
+            "username": "sdwan",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "G40_G52V*6ap*cxd",
+            "spec_info": {},
+            "created_by": "50295d87-8c08-4cb8-ba8c-59b50d1ae239",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "ead2b184-4f78-43f0-9bca-b0274bddaae0",
+                "name": "DB-cloud6",
+                "address": "154.207.98.241",
+                "type": {
+                    "value": "mysql",
+                    "label": "MySQL"
+                },
+                "category": {
+                    "value": "database",
+                    "label": "\u6570\u636e\u5e93"
+                },
+                "platform": {
+                    "id": 17,
+                    "name": "MySQL"
+                },
+                "auto_config": {
+                    "su_enabled": false,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 15,
+                    "ansible_config": {
+                        "ansible_connection": "local"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "mysql_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": false,
+                    "gather_facts_method": null,
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_mysql",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_mysql",
+                    "push_account_params": {},
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_mysql",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_mysql",
+                    "gather_accounts_params": {},
+                    "platform": 17
+                }
+            },
+            "version": 2,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": false,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:17 +0800",
+            "date_updated": "2023/09/05 14:27:18 +0800"
+        }
+    },
+    "154.207.98.245": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Cloud7"
+        ],
+        "address": "154.207.98.245",
+        "id": "f31399a7-0ec0-4ae4-b3c5-1157a0e297e4",
+        "password": "IBH97,9VKi~4e9?a",
+        "username": "root",
+        "data": {
+            "id": "53d84528-83a5-4c60-b98c-fc8d261be6f3",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "0gy%947)Gn3tsQ&X",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "f31399a7-0ec0-4ae4-b3c5-1157a0e297e4",
+                "name": "Cloud7_hicloud_test",
+                "address": "154.207.98.245",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 19,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:18 +0800"
+        }
+    },
+    "154.207.98.243": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Cloud5"
+        ],
+        "address": "154.207.98.243",
+        "id": "e73ff3a0-4ec7-4ac1-8a71-5748a2eeaab9",
+        "password": "B!+hh08y0Xu9B1-d",
+        "username": "root",
+        "data": {
+            "id": "4e87d7ca-9f0c-48d2-94cb-3a0de73872f8",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "8X-8Bk1ZWc9~ZO+3",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "e73ff3a0-4ec7-4ac1-8a71-5748a2eeaab9",
+                "name": "Hicloud-h.speedbox.ink",
+                "address": "154.207.98.243",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 19,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:18 +0800"
+        }
+    },
+    "43.229.28.99": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/DIYlink"
+        ],
+        "address": "43.229.28.99",
+        "id": "894b9075-e737-4da6-acc9-2a8533b8edef",
+        "password": "3A.vfS1z43Y_Rm0#",
+        "username": "ubuntu",
+        "data": {
+            "id": "94ef936f-06fe-4086-8b3c-770b88cc2151",
+            "name": "ubuntu",
+            "username": "ubuntu",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "Xk5%,99s6)7Oxava",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "894b9075-e737-4da6-acc9-2a8533b8edef",
+                "name": "DIYlink",
+                "address": "43.229.28.99",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 3,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "ok",
+                "label": "\u6210\u529f"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/12 09:34:00 +0800",
+            "date_updated": "2023/09/05 14:27:19 +0800"
+        }
+    },
+    "103.63.136.110": {
+        "port": 22,
+        "created_by": "\u66fe\u7e41\u5a01",
+        "nodes_display": [
+            "/Default/DIYlink-Test"
+        ],
+        "address": "103.63.136.110",
+        "id": "f8a4beba-60a3-4826-a530-d7c893538c0b",
+        "password": "9B89*IKW_z&Zm7C9",
+        "username": "root",
+        "data": {
+            "id": "b409a886-7ea6-4aad-96a9-8904e2b2ad1d",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "b34F)C0#+3EpfQO9",
+            "spec_info": {},
+            "created_by": "\u66fe\u7e41\u5a01",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "f8a4beba-60a3-4826-a530-d7c893538c0b",
+                "name": "DIYlink-Test-1",
+                "address": "103.63.136.110",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 2,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/08/30 09:41:22 +0800",
+            "date_updated": "2023/09/05 14:27:19 +0800"
+        }
+    },
+    "103.63.136.130": {
+        "port": 22,
+        "created_by": "\u66fe\u7e41\u5a01",
+        "nodes_display": [
+            "/Default/DIYlink-Test"
+        ],
+        "address": "103.63.136.130",
+        "id": "10654da5-423d-407b-8469-e8d020053a87",
+        "password": "*3R4-7OM1GW2UJl?",
+        "username": "root",
+        "data": {
+            "id": "3fc3fa50-2af5-4b46-9042-e8b29f919729",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "s#w2~vM52AHkp6?3",
+            "spec_info": {},
+            "created_by": "\u66fe\u7e41\u5a01",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "10654da5-423d-407b-8469-e8d020053a87",
+                "name": "DIYlink-Test-3",
+                "address": "103.63.136.130",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 2,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/08/30 10:07:44 +0800",
+            "date_updated": "2023/09/05 14:27:20 +0800"
+        }
+    },
+    "103.63.136.120": {
+        "port": 22,
+        "created_by": "\u66fe\u7e41\u5a01",
+        "nodes_display": [
+            "/Default/DIYlink-Test"
+        ],
+        "address": "103.63.136.120",
+        "id": "40fe66c9-729a-45e2-ad0e-95d7cc3a92ab",
+        "password": "clB9%5!24ha0+UOi",
+        "username": "root",
+        "data": {
+            "id": "44b0dad8-d573-4384-b66f-a749b02320b8",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "54)Homu~pWQ_369D",
+            "spec_info": {},
+            "created_by": "\u66fe\u7e41\u5a01",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "40fe66c9-729a-45e2-ad0e-95d7cc3a92ab",
+                "name": "DLYlink-Test-2",
+                "address": "103.63.136.120",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 2,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/08/30 10:07:16 +0800",
+            "date_updated": "2023/09/05 14:27:20 +0800"
+        }
+    },
+    "154.207.81.110": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/WorkTeam"
+        ],
+        "address": "154.207.81.110",
+        "id": "bb831b0e-f882-4731-9d0d-cec1266a9d62",
+        "password": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7iNFQ7fjRUO3wAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+        "username": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5",
+        "data": {
+            "id": "585c36ba-416e-44f3-b67f-1c393621dd81",
+            "name": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5",
+            "username": "root",
+            "secret_type": {
+                "value": "ssh_key",
+                "label": "SSH \u5bc6\u94a5"
+            },
+            "secret": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7iNFQ7fjRUO3wAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+            "spec_info": {
+                "ssh_key_fingerprint": "MD5:b9:1b:e6:84:95:5a:64:d1:c7:aa:f5:73:b0:ae:42:89"
+            },
+            "created_by": "\u627f\u6b66",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "bb831b0e-f882-4731-9d0d-cec1266a9d62",
+                "name": "Hitosea-110",
+                "address": "154.207.81.110",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 1,
+            "source": {
+                "value": "template",
+                "label": "\u6a21\u677f"
+            },
+            "source_id": "e68c8211-6b71-491e-96ec-3e77557997b9",
+            "connectivity": {
+                "value": "ok",
+                "label": "\u6210\u529f"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": false,
+            "is_active": true,
+            "date_created": "2023/08/28 16:22:43 +0800",
+            "date_updated": "2023/08/28 16:22:43 +0800"
+        }
+    },
+    "154.207.81.114": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/\u8fd0\u7ef4\u7ec4"
+        ],
+        "address": "154.207.81.114",
+        "id": "89547ef8-88fd-43a0-9f33-ca0682e025bd",
+        "password": "%KE+)Ds44T6BVl06",
+        "username": "root",
+        "data": {
+            "id": "c8106f34-8c1d-4d85-9e84-b27e4be51216",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "SECT8E6K77)3?,gd",
+            "spec_info": {},
+            "created_by": "36773fb2-e97d-4883-977a-c17b8820a10c",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "89547ef8-88fd-43a0-9f33-ca0682e025bd",
+                "name": "Hitosea-114_elk",
+                "address": "154.207.81.114",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 15,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:20 +0800"
+        }
+    },
+    "154.207.81.130": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/\u8fd0\u7ef4\u7ec4"
+        ],
+        "address": "154.207.81.130",
+        "id": "5d539f32-d8d0-49ab-818b-ca06c8f62992",
+        "password": "5rbCV6f^&00Ui,b9",
+        "username": "root",
+        "data": {
+            "id": "bbadd910-c2ae-416b-9b32-cf6537b3fc23",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "*S35TC34Yg_f_hX6",
+            "spec_info": {},
+            "created_by": "36773fb2-e97d-4883-977a-c17b8820a10c",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "5d539f32-d8d0-49ab-818b-ca06c8f62992",
+                "name": "Hitosea-130",
+                "address": "154.207.81.130",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 16,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:20 +0800"
+        }
+    },
+    "154.207.81.131": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/\u8fd0\u7ef4\u7ec4"
+        ],
+        "address": "154.207.81.131",
+        "id": "89b87a3e-80ff-4437-80ea-d4e771a87454",
+        "password": "gu6*HLI618?1jE%J",
+        "username": "root",
+        "data": {
+            "id": "46d0da2d-2066-4bb2-befd-4eb39071c345",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "CePjvW9%798f.5S_",
+            "spec_info": {},
+            "created_by": "36773fb2-e97d-4883-977a-c17b8820a10c",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "89b87a3e-80ff-4437-80ea-d4e771a87454",
+                "name": "Hitosea-131",
+                "address": "154.207.81.131",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 15,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:21 +0800"
+        }
+    },
+    "154.207.81.101": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Pang"
+        ],
+        "address": "154.207.81.101",
+        "id": "909301a7-b1b0-4366-b8a6-23ae6db3d854",
+        "password": "4+0+36(lYLyNQvi0",
+        "username": "root",
+        "data": {
+            "id": "47b5bc35-244f-4213-87cc-76da588eb07a",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "l5(tRi4SlCF#30~3",
+            "spec_info": {},
+            "created_by": "e1723804-269c-4537-87fb-6dec70f122c2",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "909301a7-b1b0-4366-b8a6-23ae6db3d854",
+                "name": "hitosea_101",
+                "address": "154.207.81.101",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 15,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:21 +0800"
+        }
+    },
+    "154.207.81.102": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Pang"
+        ],
+        "address": "154.207.81.102",
+        "id": "467c11ee-1a9a-45b1-9db8-934c8190f3f2",
+        "password": "2zR5U2B0T~suj0)-",
+        "username": "root",
+        "data": {
+            "id": "00c59b44-6c94-4c70-9c2b-6e4c334d6caf",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "3X!6_7XgyAPk8%I7",
+            "spec_info": {},
+            "created_by": "e1723804-269c-4537-87fb-6dec70f122c2",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "467c11ee-1a9a-45b1-9db8-934c8190f3f2",
+                "name": "hitosea_102",
+                "address": "154.207.81.102",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 16,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:21 +0800"
+        }
+    },
+    "154.207.81.126": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/WorkTeam"
+        ],
+        "address": "154.207.81.126",
+        "id": "a0263cde-9dfc-4f17-8794-cb8877a6fb78",
+        "password": "Z4UB59~olEY!39K!",
+        "username": "root",
+        "data": {
+            "id": "f0539047-9152-4faf-a6a7-0f8f6e360845",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "!erhzA045shS0_?9",
+            "spec_info": {},
+            "created_by": "c0408d29-238e-4948-b97f-a08befbbae55",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "a0263cde-9dfc-4f17-8794-cb8877a6fb78",
+                "name": "Hitosea_126-127",
+                "address": "154.207.81.126",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 17,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:21 +0800"
+        }
+    },
+    "154.207.81.128": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/WorkTeam"
+        ],
+        "address": "154.207.81.128",
+        "id": "419b9139-86ed-40ac-a8d2-6803bda3cd2c",
+        "password": "25&zd)P+E3yoi6m2",
+        "username": "root",
+        "data": {
+            "id": "bda265b1-bcd5-44bd-b214-421b4d1e2db5",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "36*Stc5-Lph1S6e#",
+            "spec_info": {},
+            "created_by": "c0408d29-238e-4948-b97f-a08befbbae55",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "419b9139-86ed-40ac-a8d2-6803bda3cd2c",
+                "name": "Hitosea_128-129",
+                "address": "154.207.81.128",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 19,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "err",
+                "label": "\u9519\u8bef"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:22 +0800"
+        }
+    },
+    "154.207.81.168": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Pang"
+        ],
+        "address": "154.207.81.168",
+        "id": "e21f8516-b6fb-445f-847a-961d24e8eeda",
+        "password": "RNM7&4n.jF_H8r47",
+        "username": "root",
+        "data": {
+            "id": "4d4874f3-5454-4469-b4a9-6237e52bd83d",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "1zjDd&1#I7z5,3iH",
+            "spec_info": {},
+            "created_by": "e1723804-269c-4537-87fb-6dec70f122c2",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "e21f8516-b6fb-445f-847a-961d24e8eeda",
+                "name": "Hitosea_168",
+                "address": "154.207.81.168",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 16,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:22 +0800"
+        }
+    },
+    "154.207.81.169": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Pang"
+        ],
+        "address": "154.207.81.169",
+        "id": "bd01b1cf-2e0e-4831-8cc0-61dae75a74ff",
+        "password": "68kQX1Q+Fk_3Se6.",
+        "username": "root",
+        "data": {
+            "id": "63a6134d-c18a-444d-9d4d-a15ea8cc4ad3",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "7E4c4(z+?Vn2Ei3P",
+            "spec_info": {},
+            "created_by": "e1723804-269c-4537-87fb-6dec70f122c2",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "bd01b1cf-2e0e-4831-8cc0-61dae75a74ff",
+                "name": "Hitosea_169",
+                "address": "154.207.81.169",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 14,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:22 +0800"
+        }
+    },
+    "154.207.98.177": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.177",
+        "id": "dff867f6-a96f-4163-9c26-210430c68a6b",
+        "password": "Sq8bXG-91&5hI6g&",
+        "username": "root",
+        "data": {
+            "id": "906d1dd0-5a05-4bdc-bd74-f7711b1b437a",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "0qkUpF3M0*tE?7,7",
+            "spec_info": {},
+            "created_by": "74ee67fb-cbe5-4739-a881-d2b092ef1925",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "dff867f6-a96f-4163-9c26-210430c68a6b",
+                "name": "Hitosea_177_rsyslog_key",
+                "address": "154.207.98.177",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 17,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:23 +0800"
+        }
+    },
+    "154.207.98.175": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.175",
+        "id": "9e3d12e3-bc96-4905-b372-41edd6752f8d",
+        "password": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7jOzwa/zs8GvwAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+        "username": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5-\u8d26\u53f7\u6a21\u7248",
+        "data": {
+            "id": "922dbc5f-4b05-4a36-ba78-c7250a88ea94",
+            "name": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5-\u8d26\u53f7\u6a21\u7248",
+            "username": "root",
+            "secret_type": {
+                "value": "ssh_key",
+                "label": "SSH \u5bc6\u94a5"
+            },
+            "secret": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7jOzwa/zs8GvwAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+            "spec_info": {
+                "ssh_key_fingerprint": "MD5:b9:1b:e6:84:95:5a:64:d1:c7:aa:f5:73:b0:ae:42:89"
+            },
+            "created_by": null,
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "9e3d12e3-bc96-4905-b372-41edd6752f8d",
+                "name": "Hitosea_docker-hub_175",
+                "address": "154.207.98.175",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 0,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/08/31 18:53:48 +0800",
+            "date_updated": "2023/08/31 18:53:48 +0800"
+        }
+    },
+    "154.207.98.180": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.180",
+        "id": "40cbba22-b650-46e9-b7cf-18b6c148ea42",
+        "password": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7jOzwa/zs8GvwAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+        "username": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5-\u8d26\u53f7\u6a21\u7248",
+        "data": {
+            "id": "f5fcbedc-da25-4207-98f9-6ab5736c060e",
+            "name": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5-\u8d26\u53f7\u6a21\u7248",
+            "username": "root",
+            "secret_type": {
+                "value": "ssh_key",
+                "label": "SSH \u5bc6\u94a5"
+            },
+            "secret": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7jOzwa/zs8GvwAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+            "spec_info": {
+                "ssh_key_fingerprint": "MD5:b9:1b:e6:84:95:5a:64:d1:c7:aa:f5:73:b0:ae:42:89"
+            },
+            "created_by": null,
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "40cbba22-b650-46e9-b7cf-18b6c148ea42",
+                "name": "Hitosea_exchang_180",
+                "address": "154.207.98.180",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 0,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/08/31 18:53:48 +0800",
+            "date_updated": "2023/08/31 18:53:48 +0800"
+        }
+    },
+    "154.207.98.173": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.173",
+        "id": "91e54327-d1ef-4c71-a944-c015dd70a0fa",
+        "password": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7jOzwa/zs8GvwAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+        "username": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5-\u8d26\u53f7\u6a21\u7248",
+        "data": {
+            "id": "573c703b-0f45-4910-a9f1-b742ae877918",
+            "name": "\u7edf\u4e00\u767b\u9646\u5bc6\u94a5-\u8d26\u53f7\u6a21\u7248",
+            "username": "root",
+            "secret_type": {
+                "value": "ssh_key",
+                "label": "SSH \u5bc6\u94a5"
+            },
+            "secret": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7jOzwa/zs8GvwAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+            "spec_info": {
+                "ssh_key_fingerprint": "MD5:b9:1b:e6:84:95:5a:64:d1:c7:aa:f5:73:b0:ae:42:89"
+            },
+            "created_by": null,
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "91e54327-d1ef-4c71-a944-c015dd70a0fa",
+                "name": "Hitosea_git-173",
+                "address": "154.207.98.173",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 0,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/08/31 18:53:48 +0800",
+            "date_updated": "2023/08/31 18:53:48 +0800"
+        }
+    },
+    "154.207.98.178": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.178",
+        "id": "ae0cd9d8-ff82-4252-aa40-9ecce418022c",
+        "password": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7j9jCJB/YwiQQAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+        "username": "\u7edf\u4e00\u767b\u5f55-\u8d26\u53f7\u6a21\u7248",
+        "data": {
+            "id": "b106800c-6391-4869-b1aa-406e1b6880ba",
+            "name": "\u7edf\u4e00\u767b\u5f55-\u8d26\u53f7\u6a21\u7248",
+            "username": "root2",
+            "secret_type": {
+                "value": "ssh_key",
+                "label": "SSH \u5bc6\u94a5"
+            },
+            "secret": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7j9jCJB/YwiQQAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+            "spec_info": {
+                "ssh_key_fingerprint": "MD5:b9:1b:e6:84:95:5a:64:d1:c7:aa:f5:73:b0:ae:42:89"
+            },
+            "created_by": null,
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "ae0cd9d8-ff82-4252-aa40-9ecce418022c",
+                "name": "Hitosea_hitosea.com_178",
+                "address": "154.207.98.178",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 0,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/12 14:47:49 +0800",
+            "date_updated": "2023/06/12 14:47:49 +0800"
+        }
+    },
+    "154.207.98.172": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.172",
+        "id": "f0812e06-7575-447d-a9d3-8d7dd5caf682",
+        "password": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7j9jCJB/YwiQQAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+        "username": "\u7edf\u4e00\u767b\u5f55-\u8d26\u53f7\u6a21\u7248",
+        "data": {
+            "id": "a7247563-1c29-4355-a6a2-3276a6367f3b",
+            "name": "\u7edf\u4e00\u767b\u5f55-\u8d26\u53f7\u6a21\u7248",
+            "username": "root2",
+            "secret_type": {
+                "value": "ssh_key",
+                "label": "SSH \u5bc6\u94a5"
+            },
+            "secret": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7j9jCJB/YwiQQAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+            "spec_info": {
+                "ssh_key_fingerprint": "MD5:b9:1b:e6:84:95:5a:64:d1:c7:aa:f5:73:b0:ae:42:89"
+            },
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": {
+                "id": "73d6ef29-cc85-4c16-9b5f-a04179eb403c",
+                "name": "root",
+                "username": "root"
+            },
+            "asset": {
+                "id": "f0812e06-7575-447d-a9d3-8d7dd5caf682",
+                "name": "Hitosea_jumpserver_172",
+                "address": "154.207.98.172",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 1,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "ok",
+                "label": "\u6210\u529f"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/12 14:47:49 +0800",
+            "date_updated": "2023/06/12 14:53:44 +0800"
+        }
+    },
+    "154.207.81.105": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_node"
+        ],
+        "address": "154.207.81.105",
+        "id": "fb021b67-392e-43cb-b034-12e132f6dc44",
+        "password": "5Z9Dp?_fbOK82o^2",
+        "username": "root",
+        "data": {
+            "id": "63c209d4-2054-4390-b177-0ff131a9a37a",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "co4.4-39X9-IVzoe",
+            "spec_info": {},
+            "created_by": "74ee67fb-cbe5-4739-a881-d2b092ef1925",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "fb021b67-392e-43cb-b034-12e132f6dc44",
+                "name": "hitosea_node_105",
+                "address": "154.207.81.105",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 20,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:23 +0800"
+        }
+    },
+    "154.207.81.107": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_node"
+        ],
+        "address": "154.207.81.107",
+        "id": "8eebafd0-c135-4775-a6fb-a49fd87587cc",
+        "password": "%omr65?0hl.tgN25",
+        "username": "root",
+        "data": {
+            "id": "f8a9cd05-dac3-47bb-b8d5-1435dbd032a3",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "u6uE1z8(5y0t+Fe+",
+            "spec_info": {},
+            "created_by": "74ee67fb-cbe5-4739-a881-d2b092ef1925",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "8eebafd0-c135-4775-a6fb-a49fd87587cc",
+                "name": "hitosea_node_107",
+                "address": "154.207.81.107",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 16,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:23 +0800"
+        }
+    },
+    "154.207.81.108": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_node"
+        ],
+        "address": "154.207.81.108",
+        "id": "e3a24949-c185-4490-880d-fed0714f81a9",
+        "password": "2-Cn05OA+oCl1+5W",
+        "username": "root",
+        "data": {
+            "id": "83adff1a-b369-484e-8210-d3f7a77c6482",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "GQJ23^6!Mf)Z2Ob1",
+            "spec_info": {},
+            "created_by": "74ee67fb-cbe5-4739-a881-d2b092ef1925",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "e3a24949-c185-4490-880d-fed0714f81a9",
+                "name": "hitosea_node_108",
+                "address": "154.207.81.108",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 20,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:23 +0800"
+        }
+    },
+    "154.207.81.117": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_node"
+        ],
+        "address": "154.207.81.117",
+        "id": "9ce8a80c-3281-46ef-af52-4c7b97c46a3b",
+        "password": "7Ha*9WdIwG2#6K.5",
+        "username": "root",
+        "data": {
+            "id": "e803d5a5-3181-4a39-b191-190ba29faa65",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "t2y14M_R03(Bk+rk",
+            "spec_info": {},
+            "created_by": "74ee67fb-cbe5-4739-a881-d2b092ef1925",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "9ce8a80c-3281-46ef-af52-4c7b97c46a3b",
+                "name": "hitosea_node_117",
+                "address": "154.207.81.117",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 20,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:24 +0800"
+        }
+    },
+    "154.207.81.119": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_node"
+        ],
+        "address": "154.207.81.119",
+        "id": "976815b2-35ef-4f38-be78-de15a0f27cbe",
+        "password": "1?LI9gTv73VIq)6-",
+        "username": "root",
+        "data": {
+            "id": "f0ab768e-884f-4ff8-9084-6e1d91baf8f8",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "1ym8#0zIb5+0DLC?",
+            "spec_info": {},
+            "created_by": "74ee67fb-cbe5-4739-a881-d2b092ef1925",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "976815b2-35ef-4f38-be78-de15a0f27cbe",
+                "name": "hitosea_node_119",
+                "address": "154.207.81.119",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 20,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:24 +0800"
+        }
+    },
+    "154.207.81.116": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_node/Hitosea_node_2"
+        ],
+        "address": "154.207.81.116",
+        "id": "e0177c5c-d5c6-44bb-890a-33990f3f6477",
+        "password": "r*DjC53&7Md1+n5A",
+        "username": "root",
+        "data": {
+            "id": "9cb6fc02-56b5-4e2c-9fab-07ed86be7525",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "sQ7Y,e414#G?9dNI",
+            "spec_info": {},
+            "created_by": "74ee67fb-cbe5-4739-a881-d2b092ef1925",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "e0177c5c-d5c6-44bb-890a-33990f3f6477",
+                "name": "hitosea_node_2_116",
+                "address": "154.207.81.116",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 19,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:24 +0800"
+        }
+    },
+    "154.207.98.179": {
+        "port": 22,
+        "created_by": "\u5218\u6797\u65fa",
+        "nodes_display": [
+            "/Default/Pang"
+        ],
+        "address": "154.207.98.179",
+        "id": "abb40947-ddbb-459e-b732-8a11e815211c",
+        "password": "0U!Ic*N0#9XLP10L",
+        "username": "task",
+        "data": {
+            "id": "2a76930a-066e-496f-8a74-4dbe9d174df5",
+            "name": "task",
+            "username": "ubuntu",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "_z8kYn084o_q1G#c",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "abb40947-ddbb-459e-b732-8a11e815211c",
+                "name": "hitosea_pang_task",
+                "address": "154.207.98.179",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 2,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/08/06 19:45:10 +0800",
+            "date_updated": "2023/09/05 14:27:24 +0800"
+        }
+    },
+    "154.207.98.174": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.174",
+        "id": "2f56edc2-e95e-4d9b-8136-dd22a0812bac",
+        "password": "v+k9W&#nvp1694xX",
+        "username": "root",
+        "data": {
+            "id": "9435f69d-638b-4262-9cc7-f8f6f0c72492",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "bT50kG?u.37j2GR#",
+            "spec_info": {},
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "2f56edc2-e95e-4d9b-8136-dd22a0812bac",
+                "name": "Hitosea_task_174",
+                "address": "154.207.98.174",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 3,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/08 11:52:12 +0800",
+            "date_updated": "2023/09/05 14:27:25 +0800"
+        }
+    },
+    "154.207.98.176": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/Hitosea_system"
+        ],
+        "address": "154.207.98.176",
+        "id": "cd7348aa-b68e-46b8-a758-bf1350ba0709",
+        "password": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7j9jCJB/YwiQQAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+        "username": "\u7edf\u4e00\u767b\u5f55-\u8d26\u53f7\u6a21\u7248",
+        "data": {
+            "id": "81153d9f-183d-4118-84b8-1751a0be7673",
+            "name": "\u7edf\u4e00\u767b\u5f55-\u8d26\u53f7\u6a21\u7248",
+            "username": "root2",
+            "secret_type": {
+                "value": "ssh_key",
+                "label": "SSH \u5bc6\u94a5"
+            },
+            "secret": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABFwAAAAdzc2gtcnNhAAAA\nAwEAAQAAAQEAw0TmAlWBJztnK2P4jWNvHuVZG3nAn4JjJ20vYOCb7cOYTK6i0i8/bm9zqAoKi3mc\nUXItjZjh2mvibrDieFH17EkSOJA/2A6IoMPSj9jM7148ue1WjWBj26O31iTP7Eg94hn/A6kuxnyV\nfwgzvjPNZfrZNaHOBKr46VQ2yN9NI4YJozgedSr4PSBKosOuw9p57mGOSXQqY3eiVleN1DXSoGYD\nxI5fp40qC40TfzMsJUAZ/ZQI8DwBjqWpZfMFvE/3VyJnGHX8cuuiZHN+9QHWuHzMC+3w0NFpE7l1\nsUedeYpUdMJ+ebKpu0XTR3KGrzP32FZxmbyN7Ga/vknBuJGX1wAAA7j9jCJB/YwiQQAAAAdzc2gt\ncnNhAAABAQDDROYCVYEnO2crY/iNY28e5VkbecCfgmMnbS9g4Jvtw5hMrqLSLz9ub3OoCgqLeZxR\nci2NmOHaa+JusOJ4UfXsSRI4kD/YDoigw9KP2MzvXjy57VaNYGPbo7fWJM/sSD3iGf8DqS7GfJV/\nCDO+M81l+tk1oc4EqvjpVDbI300jhgmjOB51Kvg9IEqiw67D2nnuYY5JdCpjd6JWV43UNdKgZgPE\njl+njSoLjRN/MywlQBn9lAjwPAGOpall8wW8T/dXImcYdfxy66Jkc371Ada4fMwL7fDQ0WkTuXWx\nR515ilR0wn55sqm7RdNHcoavM/fYVnGZvI3sZr++ScG4kZfXAAAAAwEAAQAAAQEAreu8AfAubMcY\nCSmtxCEAZEBasYIr8uarcf5p6JulxowkJoiVNSgoEzDpjo4C/l9+v3w23puA7o6Qy4546Dn4FFCx\nDfhNJR8syiQgc0bioYEKDYA7SwjDaGnV38JB/24I0E3fOV+C7f8hGFgx3gM9ustGk+JeIQI3WXtM\noHVju3KiP1c2r/YmGB0d6UhMUQ4OxS7yU/8oTjVraV7L/BL/fGTUfNJli+TQTSKm3waaMtZw68qA\n03bLii8Ukxe+6aA8Vwah9uNi/2Vs7dACZytQHNpjRJdLfeWaMCFPbj0aUJFMg5Jk7kU4uu0aAYtz\nW4Rmegy8Z05Xg8jjI6ymy3HywQAAAIEAvX8wwZYMHE/teNjSZ+F3j4hMJefM25vvkZmXMIbMpxxH\nHnAEHaJvG7jgwSgYvbasRuwFHfrVdMp5nTJLA2kObA5UXE+/FehO7H7CeaS9AVH9OPZgP4aBThnH\nx8+sjuRPF/8jnN2Ly28/UvS51ylEaM+OHgOmrYV9ec9jhooWhpEAAACBAPss0cGolKBmkFvfLqwu\n4y59kFQUoMnC529bVu2OX7cpmME7dkwsIZh+wZsCJiEwiEnl8qFZwquFrABkuAzOijJZmrgiuvp2\nVgBlRIWNV5vuT2wlvmY3Z6603yQatOG8ITsVpJF6tGYhhO+S3awLPDpsZrzblPrIeX9kalBKi8t/\nAAAAgQDHBSfU4dzkAvdWdzWNsHHmrdK4e6gLtvmokv/4lmWONpgjCgmX0Fn0cmpNRgfcwoIUrJ9v\n6XPQg3tOTLuIodoFy9GRmraYpfl78zuaoCURBRwPOZb9dp8BMz50QSNaQ/th8RObxUk17ykftQx5\nNo4kVWo/jsKERbrNrBifDsw/qQAAAAAB\n-----END OPENSSH PRIVATE KEY-----\n",
+            "spec_info": {
+                "ssh_key_fingerprint": "MD5:b9:1b:e6:84:95:5a:64:d1:c7:aa:f5:73:b0:ae:42:89"
+            },
+            "created_by": "\u5218\u6797\u65fa",
+            "comment": "",
+            "su_from": {
+                "id": "7d43dd05-2fa9-4ef1-8630-05dcbe6b449b",
+                "name": "root",
+                "username": "root"
+            },
+            "asset": {
+                "id": "cd7348aa-b68e-46b8-a758-bf1350ba0709",
+                "name": "Hitosea_WT_DEMO_176",
+                "address": "154.207.98.176",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 1,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/12 14:47:49 +0800",
+            "date_updated": "2023/06/12 14:53:31 +0800"
+        }
+    },
+    "154.207.81.115": {
+        "port": 22,
+        "created_by": "Administrator",
+        "nodes_display": [
+            "/Default/WorkTeam"
+        ],
+        "address": "154.207.81.115",
+        "id": "03777609-13c6-4475-9542-c6c514e435af",
+        "password": "a3*088k,v.ltSoY9",
+        "username": "root",
+        "data": {
+            "id": "daa5625b-293d-4df1-9e33-144ba85c0215",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "gnP4606,3Gptf.w)",
+            "spec_info": {},
+            "created_by": "Administrator",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "03777609-13c6-4475-9542-c6c514e435af",
+                "name": "pwf-test",
+                "address": "154.207.81.115",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 16,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:25 +0800"
+        }
+    },
+    "34.96.201.67": {
+        "port": 22,
+        "created_by": "kuaifan",
+        "nodes_display": [
+            "/Default/sdwan-test"
+        ],
+        "address": "34.96.201.67",
+        "id": "0da3b4b9-5b52-4111-8679-202f24d8926d",
+        "password": "n?20qg&8Oc)YW89d",
+        "username": "root",
+        "data": {
+            "id": "e26d0dc4-47f8-49a1-b1ec-2d5699984abb",
+            "name": "root",
+            "username": "root",
+            "secret_type": {
+                "value": "password",
+                "label": "\u5bc6\u7801"
+            },
+            "secret": "20%JGfLwp^777v-F",
+            "spec_info": {},
+            "created_by": "d10ef004-c724-4ac3-b5a1-17cfbab24653",
+            "comment": "",
+            "su_from": null,
+            "asset": {
+                "id": "0da3b4b9-5b52-4111-8679-202f24d8926d",
+                "name": "sdwan-2",
+                "address": "34.96.201.67",
+                "type": {
+                    "value": "linux",
+                    "label": "Linux"
+                },
+                "category": {
+                    "value": "host",
+                    "label": "\u4e3b\u673a"
+                },
+                "platform": {
+                    "id": 1,
+                    "name": "Linux"
+                },
+                "auto_config": {
+                    "su_enabled": true,
+                    "domain_enabled": true,
+                    "ansible_enabled": true,
+                    "id": 1,
+                    "ansible_config": {
+                        "ansible_connection": "smart"
+                    },
+                    "ping_enabled": true,
+                    "ping_method": "posix_ping",
+                    "ping_params": {},
+                    "gather_facts_enabled": true,
+                    "gather_facts_method": "gather_facts_posix",
+                    "gather_facts_params": {},
+                    "change_secret_enabled": true,
+                    "change_secret_method": "change_secret_posix",
+                    "change_secret_params": {},
+                    "push_account_enabled": true,
+                    "push_account_method": "push_account_posix",
+                    "push_account_params": {
+                        "sudo": "/bin/whoami",
+                        "shell": "/bin/bash",
+                        "groups": ""
+                    },
+                    "verify_account_enabled": true,
+                    "verify_account_method": "verify_account_posix",
+                    "verify_account_params": {},
+                    "gather_accounts_enabled": true,
+                    "gather_accounts_method": "gather_accounts_posix",
+                    "gather_accounts_params": {},
+                    "platform": 1
+                }
+            },
+            "version": 12,
+            "source": {
+                "value": "local",
+                "label": "\u6570\u636e\u5e93"
+            },
+            "source_id": null,
+            "connectivity": {
+                "value": "-",
+                "label": "\u672a\u77e5"
+            },
+            "org_id": "00000000-0000-0000-0000-000000000002",
+            "org_name": "Default",
+            "has_secret": true,
+            "privileged": true,
+            "is_active": true,
+            "date_created": "2023/06/07 11:08:16 +0800",
+            "date_updated": "2023/09/05 14:27:25 +0800"
+        }
+    }
+}
