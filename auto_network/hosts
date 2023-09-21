@@ -1,18 +1,13 @@
 #入门配置
 [server]
-103.63.139.235 ansible_port=22 ansible_user=root   
-103.63.139.168 ansible_port=22 ansible_user=root     
-103.63.139.213 ansible_port=22 ansible_user=root   
-103.63.139.238 ansible_port=22 ansible_user=root     
-103.63.139.242 ansible_port=22 ansible_user=root     
-103.63.139.96  ansible_port=22 ansible_user=root     
-103.63.139.161 ansible_port=22 ansible_user=root   
-103.63.139.235 ansible_port=22 ansible_user=root   
+103.63.139.92  ansible_port=22  ansible_user=root   ansible_pass=haitun1234!!
 
 
 
 
 [all:vars]
-ansible_ssh_private_key_file=/Users/mac-512/script/auto_network/id_ed25519
+;ansible_ssh_private_key_file=/Users/mac-512/script/auto_network/id_ed25519
 init_env=False
 ansible_ssh_extra_args='-o StrictHostKeyChecking=no ' 
+
+ 

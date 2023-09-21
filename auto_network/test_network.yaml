@@ -5,21 +5,29 @@
   tasks:
   - name: 测试节点是否可连接
     ping:
-  - name: 初始化安装相关
-    shell: apt-get update && apt-get install -y screen 
-    when: init_env == True
-  - name: 初始化安装相关
-    shell: screen -d -m -S init su - root -c "apt-get update && apt-get install -y python3-pip speedtest-cli " 
-    when: init_env == True
-  - name: 执行测速
-    shell:  speedtest>/tmp/speedtest.log
-    when: init_env != True
-  - name: 获取日志文件
-    fetch:
-      src: /tmp/speedtest.log
-      dest: ./result/{{ ansible_host }}.log
-      flat: yes
-    when: init_env != True
+  # - name: ubuntu初始化安装相关
+  #   shell: apt-get update && apt-get install -y screen 
+  #   when: init_env == True
+  # - name: ubuntu初始化安装相关
+  #   shell: screen -d -m -S init su - root -c "apt-get update && apt-get install -y python3-pip speedtest-cli " 
+  #   when: init_env == True  
+
+  
+  # - name: centos初始化安装相关
+  #   shell: apt-get update && apt-get install -y screen 
+  #   when: init_env == True  and ansible_distribution == "RedHat" and ansible_distribution_major_version == "7"
+  # - name: centos初始化安装相关
+  #   shell: screen -d -m -S init su - root -c "apt-get update && apt-get install -y python3-pip speedtest-cli " 
+  #   when: init_env == True and  ansible_distribution == "RedHat" and ansible_distribution_major_version == "7"
+  # - name: 执行测速
+  #   shell:  speedtest>/tmp/speedtest.log
+  #   when: init_env != True
+  # - name: 获取日志文件
+  #   fetch:
+  #     src: /tmp/speedtest.log
+  #     dest: ./result/{{ ansible_host }}.log
+  #     flat: yes
+  #   when: init_env != True
 
 
 
