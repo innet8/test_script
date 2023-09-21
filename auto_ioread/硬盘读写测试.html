@@ -14,14 +14,19 @@
 
     <div class="container">
         <div class="row clearfix">
-
-            <div class="col-md-11 column">
+            <div class="col-md-5 column">
+                <div class="row">
+                    <canvas id="ReadWrite"  ></canvas>
+                </div>
+</div>
+            <div class="col-md-7 column">
 
                 <div class="card">
                     <div class="card-header">
                         <h1>硬盘读写测试</h1>
                     </div>
                     <div class="card-body">
+                        
 
                         <table class="table table-bordered">
 
@@ -37,10 +42,7 @@
                             </tbody>
                         </table>
 
-                        <div class="col-6">
-                            <canvas id="ReadWrite" width="100" height="100"></canvas>
-                        </div>
-
+                     
 
 
 
@@ -54,7 +56,7 @@
                                 datasets: [{
                                     label: "硬盘读测试",
                                     data: [22,16,26,11,8],
-                                    fill: false,
+                                    fill: true,
                                     backgroundColor: 'rgba(255, 99, 132, 0.2)',
                                     borderColor: 'rgb(255, 99, 132)',
                                     pointBackgroundColor: 'rgb(255, 99, 132)',
@@ -66,7 +68,7 @@
                                 {
                                     label: "硬盘写测试",
                                     data: [26,29,31,31,29],
-                                    fill: false,
+                                    fill: true,
 
                                     backgroundColor: 'rgba(54, 162, 235, 0.2)',
                                     borderColor: 'rgb(54, 162, 235)',
