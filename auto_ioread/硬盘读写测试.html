@@ -33,7 +33,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><td>103.63.139.166</td><td>bw=21.2MiB/s (22.2MB/s)</td><td>bw=24.9MiB/s (26.1MB/s)</td></tr><tr><td>103.63.139.233</td><td>bw=22.9MiB/s (23.0MB/s)</td><td>bw=27.8MiB/s (29.1MB/s)</td></tr><tr><td>103.63.139.236</td><td>bw=24.3MiB/s (25.5MB/s)</td><td>bw=29.9MiB/s (31.4MB/s)</td></tr><tr><td>103.63.139.30</td><td>bw=24.6MiB/s (25.8MB/s)</td><td>bw=29.0MiB/s (31.4MB/s)</td></tr><tr><td>103.63.139.95</td><td>bw=22.8MiB/s (23.0MB/s)</td><td>bw=27.5MiB/s (28.8MB/s)</td></tr>
+                                <tr><td>103.63.139.166</td><td>bw=21.2MiB/s (22.2MB/s)</td><td>bw=24.9MiB/s (26.1MB/s)</td></tr><tr><td>103.63.139.233</td><td>bw=22.9MiB/s (16.0MB/s)</td><td>bw=27.8MiB/s (29.1MB/s)</td></tr><tr><td>103.63.139.236</td><td>bw=24.3MiB/s (25.5MB/s)</td><td>bw=29.9MiB/s (31.4MB/s)</td></tr><tr><td>103.63.139.30</td><td>bw=24.6MiB/s (10.8MB/s)</td><td>bw=29.0MiB/s (31.4MB/s)</td></tr><tr><td>103.63.139.95</td><td>bw=22.8MiB/s (8.0MB/s)</td><td>bw=27.5MiB/s (28.8MB/s)</td></tr>
                             </tbody>
                         </table>
 
@@ -53,17 +53,28 @@
                                 labels: ["103.63.139.166","103.63.139.233","103.63.139.236","103.63.139.30","103.63.139.95"],
                                 datasets: [{
                                     label: "硬盘读测试",
-                                    data: [22,23,26,26,23],
+                                    data: [22,16,26,11,8],
                                     fill: false,
-                                    borderColor: 'rgb(0, 192, 0)', // 设置线的颜色
-                                    tension: 0.1
+                                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                    borderColor: 'rgb(255, 99, 132)',
+                                    pointBackgroundColor: 'rgb(255, 99, 132)',
+                                    pointBorderColor: '#fff',
+                                    pointHoverBackgroundColor: '#fff',
+                                    pointHoverBorderColor: 'rgb(255, 99, 132)'
+
                                 },
                                 {
                                     label: "硬盘写测试",
                                     data: [26,29,31,31,29],
                                     fill: false,
-                                    borderColor: 'rgb(75, 0, 192)', // 设置线的颜色
-                                    tension: 0.1
+
+                                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                    borderColor: 'rgb(54, 162, 235)',
+                                    pointBackgroundColor: 'rgb(54, 162, 235)',
+                                    pointBorderColor: '#fff',
+                                    pointHoverBackgroundColor: '#fff',
+                                    pointHoverBorderColor: 'rgb(54, 162, 235)'
+
                                 }
 
                                 ]
@@ -71,7 +82,7 @@
 
 
                             const config = {
-                                type: 'line', // 设置图表类型
+                                type: 'radar', // 设置图表类型
                                 data: data,
                             };
                             const Read = new Chart(document.getElementById('ReadWrite'), config);

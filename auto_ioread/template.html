@@ -55,15 +55,26 @@
                                     label: "硬盘读测试",
                                     data: $shell_read_data,
                                     fill: false,
-                                    borderColor: 'rgb(0, 192, 0)', // 设置线的颜色
-                                    tension: 0.1
+                                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                    borderColor: 'rgb(255, 99, 132)',
+                                    pointBackgroundColor: 'rgb(255, 99, 132)',
+                                    pointBorderColor: '#fff',
+                                    pointHoverBackgroundColor: '#fff',
+                                    pointHoverBorderColor: 'rgb(255, 99, 132)'
+
                                 },
                                 {
                                     label: "硬盘写测试",
                                     data: $shell_write_data,
                                     fill: false,
-                                    borderColor: 'rgb(75, 0, 192)', // 设置线的颜色
-                                    tension: 0.1
+
+                                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                    borderColor: 'rgb(54, 162, 235)',
+                                    pointBackgroundColor: 'rgb(54, 162, 235)',
+                                    pointBorderColor: '#fff',
+                                    pointHoverBackgroundColor: '#fff',
+                                    pointHoverBorderColor: 'rgb(54, 162, 235)'
+
                                 }
 
                                 ]
@@ -71,7 +82,7 @@
 
 
                             const config = {
-                                type: 'line', // 设置图表类型
+                                type: 'radar', // 设置图表类型
                                 data: data,
                             };
                             const Read = new Chart(document.getElementById('ReadWrite'), config);

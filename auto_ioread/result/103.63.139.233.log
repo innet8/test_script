@@ -36,7 +36,7 @@ mytest: (groupid=0, jobs=10): err= 0: pid=2778: Wed Sep  6 18:07:23 2023
      latency   : target=0, window=0, percentile=100.00%, depth=1
 
 Run status group 0 (all jobs):
-   READ: bw=22.9MiB/s (23.0MB/s), 22.9MiB/s-22.9MiB/s (23.0MB/s-23.0MB/s), io=1440MiB (1510MB), run=62957-62957msec
+   READ: bw=22.9MiB/s (16.0MB/s), 22.9MiB/s-22.9MiB/s (23.0MB/s-23.0MB/s), io=1440MiB (1510MB), run=62957-62957msec
   WRITE: bw=27.8MiB/s (29.1MB/s), 27.8MiB/s-27.8MiB/s (29.1MB/s-29.1MB/s), io=1750MiB (1835MB), run=62957-62957msec
 
 Disk stats (read/write):

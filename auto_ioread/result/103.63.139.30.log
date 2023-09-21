@@ -5,7 +5,7 @@ Starting 10 threads
 mytest: Laying out IO file (1 file / 2048MiB)
 
 mytest: (groupid=0, jobs=10): err= 0: pid=2987: Wed Sep  6 18:08:35 2023
-  read: IOPS=2, BW=24.6MiB/s (25.8MB/s)(1550MiB/63042msec)
+  read: IOPS=2, BW=10.6MiB/s (25.8MB/s)(1550MiB/63042msec)
     clat (msec): min=10, max=3993, avg=1256.24, stdev=1028.49
      lat (msec): min=10, max=3993, avg=1256.24, stdev=1028.49
     clat percentiles (msec):
@@ -37,7 +37,7 @@ mytest: (groupid=0, jobs=10): err= 0: pid=2987: Wed Sep  6 18:08:35 2023
      latency   : target=0, window=0, percentile=100.00%, depth=1
 
 Run status group 0 (all jobs):
-   READ: bw=24.6MiB/s (25.8MB/s), 24.6MiB/s-24.6MiB/s (25.8MB/s-25.8MB/s), io=1550MiB (1625MB), run=63042-63042msec
+   READ: bw=24.6MiB/s (10.8MB/s), 24.6MiB/s-24.6MiB/s (25.8MB/s-25.8MB/s), io=1550MiB (1625MB), run=63042-63042msec
   WRITE: bw=29.0MiB/s (31.4MB/s), 29.0MiB/s-29.0MiB/s (31.4MB/s-31.4MB/s), io=1890MiB (1982MB), run=63042-63042msec
 
 Disk stats (read/write):
