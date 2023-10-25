@@ -64,8 +64,6 @@ ls -l $appname-$version
 tree $appname-$version
 echo """上传完毕 curl -u "admin:W6RS6I2T8nkPWDrwBC" -H "Content-Type: multipart/form-data" --data-binary "@$appname-$version.deb" "http://nexus-web.keli.vip/repository/apt-hub/""""
 
-apt-get update
-apt-get install test-app
 
 
 #环境前提
@@ -168,3 +166,5 @@ apt-get install test-app
 # /etc/apt/sources.list
 #deb http://nexus-web.keli.vip/repository/apt-hub focal main
 
+apt-get update
+apt-get install test-app
