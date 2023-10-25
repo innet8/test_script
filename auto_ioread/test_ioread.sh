@@ -1,7 +1,7 @@
 #!/bin/bash
-# rm -rf result/*
+rm -rf result/*
 title="硬盘读写测试"
-# ansible-playbook -i hosts test_ioread.yaml -v -f 10
+ansible-playbook -i hosts test_ioread.yaml -v -f 10
 
 shell_tr=""
 shell_ip="["

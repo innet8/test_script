@@ -1,0 +1,3 @@
+ build:
+	go-bindata -o=asset/asset.go -pkg=asset dataFile/...
+	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -o Rootkit main.go
